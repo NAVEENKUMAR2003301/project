@@ -1,0 +1,341 @@
+@font-face {
+    font-family: boldy;
+    src: url('./assets/fonts/NewRailAlphabet-Bold.otf');
+}
+
+@font-face {
+    font-family: lighty;
+    src: url('./assets/fonts/NewRailAlphabet-Light.otf');
+}
+
+@font-face {
+    font-family: whity;
+    src: url('./assets/fonts/NewRailAlphabet-White.otf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* offer */
+
+.bg-cont {
+    background: linear-gradient(to bottom, #ebebeb 70%, #ffffff);
+}
+
+.offer {
+    background-color: #322D2D;
+    font-family: whity;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: transparent;
+    padding: 20px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.navbar>.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.navbar>.nav-links>a {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: lighty;
+    color: #322D2D;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.navbar>.btn-grp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.navbar>.btn-grp>.search {
+    cursor: pointer;
+}
+
+.navbar>.btn-grp>.try {
+    cursor: pointer;
+    background: linear-gradient(to right,
+            #CAA648,
+            #CAA648,
+            #D5B147,
+            #E4C267,
+            #E2C065,
+            #DBB95E,
+            #D0AE52,
+            #C09F41,
+            #BB9A3C);
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: lighty;
+    font-size: 1.1rem;
+}
+
+.navbar>.btn-grp>.try>svg {
+    margin-left: 15px;
+}
+
+
+/* Section1 */
+
+.section1 {
+    background-color: transparent;
+    padding: 50px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1>* {
+    flex: 1;
+}
+
+.section1>.img-section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1>.img-section>.bg-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section1>.text-section>.rate-cont {
+    background: linear-gradient(to right,
+            #FFFFFF80,
+            #FCFCFC66);
+
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.section1>.text-section>.rate-cont>.rate {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section1>.text-section>h1 {
+    font-size: 3.5rem;
+    font-family: lighty;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.section1>.text-section>.content-cont {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.section1>.text-section>.content-cont>.content-box {
+    flex: 1;
+    padding: 15px;
+    width: fit-content;
+    margin-bottom: 20px;
+}
+
+.section1>.text-section>.content-cont>.content-box>h2 {
+    font-size: 72px;
+    font-weight: 700;
+    background: linear-gradient(to right,
+            #CAA648,
+            #CAA648,
+            #D5B147,
+            #E4C267,
+            #E2C065,
+            #DBB95E,
+            #D0AE52,
+            #C09F41,
+            #BB9A3C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.section1>.text-section>.content-cont>.content-box>p {
+    font-family: lighty;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.section1>.text-section>button {
+    cursor: pointer;
+    background: linear-gradient(to right,
+            #CAA648,
+            #CAA648,
+            #D5B147,
+            #E4C267,
+            #E2C065,
+            #DBB95E,
+            #D0AE52,
+            #C09F41,
+            #BB9A3C);
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: lighty;
+    font-size: 1.1rem;
+}
+
+.section1>.text-section>button>svg {
+    margin-left: 10px;
+}
+
+
+.quote-cont {
+    background-color: transparent;
+    padding: 40px 5%;
+}
+
+.quote {
+    background: linear-gradient(to right,
+            #CAA648,
+            #CAA648,
+            #D5B147,
+            #E4C267,
+            #E2C065,
+            #DBB95E,
+            #D0AE52,
+            #C09F41,
+            #BB9A3C);
+
+    padding: 2px;
+    width: 100%;
+    max-width: 900px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: auto;
+
+
+}
+
+.quote>nav {
+    background-color: #ededed;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 300;
+    font-family: lighty;
+    text-align: center;
+    border-radius: 18px;
+}
+
+/* Section2 */
+
+.section2 {
+    background-color: transparent;
+    padding: 40px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.section2>.image-cont {
+    flex: 55;
+}
+
+.section2>.image-cont>img {
+    width: 100%;
+}
+
+.section2>.text-cont {
+    flex: 45;
+}
+
+.section2>.text-cont>h3 {
+    font-weight: 300;
+    font-size: 24px;
+    background: linear-gradient(to right,
+            #CAA648,
+            #CAA648,
+            #D5B147,
+            #E4C267,
+            #E2C065,
+            #DBB95E,
+            #D0AE52,
+            #C09F41,
+            #BB9A3C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+
+.section2>.text-cont>h1 {
+    font-weight: 300;
+    font-size: 36px;
+    font-family: lighty;
+    margin-bottom: 20px;
+}
+
+.section2>.text-cont>p {
+    font-weight: 300;
+    font-size: 21px;
+    font-family: lighty;
+    margin-bottom: 20px;
+}
+
+.section2>.text-cont>button {
+    cursor: pointer;
+    background: linear-gradient(to right,
+            #CAA648,
+            #CAA648,
+            #D5B147,
+            #E4C267,
+            #E2C065,
+            #DBB95E,
+            #D0AE52,
+            #C09F41,
+            #BB9A3C);
+
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: lighty;
+    font-size: 1.1rem;
+}
+
+.section2>.text-cont>button>svg {
+    margin-left: 10px;
+}
