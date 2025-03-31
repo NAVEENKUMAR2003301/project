@@ -11,10 +11,6 @@
         display: block;
     }
 
-    .navbar>.btn-grp>.toggler {
-        width: 30px;
-        height: 30px;
-    }
 
     .section1 {
         flex-direction: column;
@@ -159,5 +155,11 @@
 
     .quote-cont>.quote>nav{
         font-size: 24px;
+    }
+}
+
+@media (min-width:1001px) {
+    .sidebar{
+        display: none;
     }
 }
