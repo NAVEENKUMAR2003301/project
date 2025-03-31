@@ -1551,6 +1551,12 @@ html{
 }
 
 
+input:invalid{
+    color: white;
+}
+
+
+
 
 /* Animations */
 
@@ -1563,4 +1569,23 @@ html{
         transform: scaleX(1);
         opacity: 1;
     }
+}
+
+
+
+
+/* hover */
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+svg {
+    transition: transform 0.3s ease;
+}
+
+button:hover svg {
+    transform: translateX(5px);
 }

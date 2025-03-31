@@ -14,3 +14,4 @@ function sideBarOpen(){
 function sideBarClose(){
     sidebar.style.right="-200%"
 }
+
