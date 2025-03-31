@@ -1243,7 +1243,9 @@ html{
     background-color: #FCFCFC;
     padding: 30px;
     border-radius: 12.14px;
+
 }
+
 
 .section10>.test-cont>.test>svg {
     margin-bottom: 20px;
@@ -1350,6 +1352,8 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
+    gap: 20px;
 }
 
 
@@ -1366,12 +1370,15 @@ html{
 
 .section11>.questions>a {
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 40px;
     color: #322D2D;
     font-weight: 300;
     font-size: 20px;
     text-decoration: none;
     font-family: lighty;
+}
+.section11>.questions>a>svg{
+    margin-left: 10px;
 }
 
 /* Section 12 */
