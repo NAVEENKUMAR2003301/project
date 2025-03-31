@@ -1,0 +1,9 @@
+@media (max-width:1000px) {
+    .navbar{
+        padding: 20px 10px;
+    }
+    .section1{
+        flex-direction: column;
+        
+    }
+}
